@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+    <title>Cursos</title>
+    
+     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+     <link rel="stylesheet" href="css/bootstrap-theme.css"> 
+     <link rel="stylesheet" href="css/miestilo2.css">
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+         <script src="js/jquery-1.7.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+
+</head>
+<body>
+
+  
+<div class="row">       <!-- Menu de arriba-->      
+                <section id="nav">
+                <ul class="nav nav-pills ">
+                <li class="btn-xsm btn-default"><a href="index.html">Inicio</a></li> 
+                
+                <li class="btn-xsm btn-default"><a href="Nosotros.html">¿Quienes somos?</a></li>
+            
+    <div class="menu1">
+                <div class="btn-group pull-right">
+  <button type="button" class="btn btn-info btn-md dropdown-toggle" data-toggle="dropdown">
+   Acceder <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Iniciar sesion</a></li>
+    <li><a href="crear.html">Crear cuenta</a></li>
+  </ul>
+  </div>
+</div>
+</section>
+            
+
+<br><br>
+
+<form class="form-inline" action="verificaUsuario.php" method="POST">
+  <div class="form-group">
+    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+  </div>
+  <div class="checkbox">
+    <label>
+      <br><input type="checkbox"> Recordar
+    </label>
+  </div>
+  <br><br>
+  <button type="submit" class="btn btn-default">Iniciar Sesion</button>
+</form>
+
+<footer>
+            <div class="row">
+                <div id="footer">
+                <center><img src="img/tarjetas.jpg" height="30" width="93" alt=""></center>
+                <h4 id="der">Contactanos</h4>
+                <p >Derechos reservados</p>
+                <p id="cop">Copyright ©</p>
+                </div>
+            </div>
+
+            </footer>
+                            
+    
+
+</body>
+</html>
